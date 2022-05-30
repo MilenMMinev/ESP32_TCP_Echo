@@ -19,3 +19,7 @@ The TCP server starts on 192.168.4.1:11122 by default.
 
 ## TODO:
 There are concurrency problems with the API methods leading them to sometimes yield incorrect data when multiple clients are sending/receiving simultaneously.
+
+## Tests:
+
+There are Python unittests in tests/tests.py which test the functionality of the server.
